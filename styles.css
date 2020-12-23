@@ -30,7 +30,7 @@
 .header {
   height: 300px;
   background-image: url("images/main/boat-port-banner.JPG");
-  background-position: right;
+  background-position: right center;
   background-repeat: no-repeat;
   overflow: hidden;
 }
