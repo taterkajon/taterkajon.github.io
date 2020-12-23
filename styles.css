@@ -3,7 +3,11 @@
   margin: auto;
 }
 .gallery {
+  max-width: 960px;
+  margin:auto;
   margin: 10px 50px;
+  display: flex;
+  justify-content: space-between;
 }
 .gallery img {
   transition: .5s;
