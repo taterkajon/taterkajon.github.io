@@ -2,17 +2,15 @@
   max-width: 960px;
   margin: auto;
 }
-.container-gallery {
+.gallery {
   max-width: 960px;
   margin:auto;
-  display: flex;
-  justify-content: space-between;
 }
-.container-gallery img {
+.gallery img {
   transition: .1s;
   padding: 3px
 }
-.container-gallery img:hover {
+.gallery img:hover {
   filter: sepia(100%);
   transform: scale(1.03);
 }
