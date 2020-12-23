@@ -15,6 +15,7 @@
   transform: scale(1.03);
 }
 #parent {
+  padding: inherit;
   text-align: justify;
   font-size: 0.1px; /* IE 9/10 fix */
 }
