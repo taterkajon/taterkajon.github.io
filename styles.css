@@ -28,9 +28,18 @@
   display: inline-block;
 }
 .header {
-  height: 300px;
+  height: 200px;
   background-image: url("images/main/boat-port-banner.JPG");
   background-position: right center;
   background-repeat: no-repeat;
   overflow: hidden;
+  background-size: auto 200px;
+  text-align: center;
+  line-height: 200px;
+}
+.header h1{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-size: xxx-large;
 }
