@@ -6,7 +6,7 @@
   max-width: 960px;
   margin:auto;
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
 }
 .container-gallery img {
   transition: .1s;
@@ -15,4 +15,16 @@
 .container-gallery img:hover {
   filter: sepia(100%);
   transform: scale(1.03);
+}
+#parent {
+  text-align: justify;
+  font-size: 0.1px; /* IE 9/10 fix */
+}
+#parent li {
+  display: inline-block;
+}
+#parent:after {
+  content: '';
+  width: 100%; /* Ensures justification for single lines */
+  display: inline-block;
 }
