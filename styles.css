@@ -42,3 +42,7 @@
   line-height: normal;
   font-size: xxx-large;
 }
+.header-button{
+  width: min-content;
+  height: min-content;
+}
