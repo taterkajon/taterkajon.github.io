@@ -8,7 +8,7 @@
 }
 .gallery img {
   transition: .1s;
-  padding: 1px
+  padding: 2px 0px;
 }
 .gallery img:hover {
   transform: scale(1.03);
