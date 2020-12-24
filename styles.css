@@ -52,10 +52,21 @@
 @media only screen and (max-width: 768px) {
   body {background-color: aliceblue}
   .content {overflow: hidden;}
-  .content img {height: auto; width: 100%}
+  .content img {height: auto;
+    width: 100%}
   .gallery {width: 100%}
-  .gallery img {width: 100%}
-  .header {width: 100%; background-image: none;}
+  .gallery img {width: 100%;
+    padding: inherit;}
+  .header {width: 100%;
+    background-image: none;}
   .header h1 {font-size: xxx-large}
   .header-button {height: fit-content;}
+  #parent {padding: inherit;
+   text-align: center;
+   font-size: 0.1px; /* IE 9/10 fix */}
+  #parent li {display: inline-block;
+   padding: 2px;}
+  #parent:after {content: '';
+   width: 100%; /* Ensures justification for single lines */
+   display: inline-block;}
 }
