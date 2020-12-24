@@ -46,4 +46,5 @@
 .header-button{
   width: min-content;
   height: min-content;
+  margin: auto;
 }
