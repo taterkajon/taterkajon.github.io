@@ -49,3 +49,13 @@
   height: min-content;
   margin: auto;
 }
+@media only screen and (max-width: 768px) {
+  body {background-color: aliceblue}
+  .content {overflow: hidden;}
+  .content img {height: auto; width: 100%}
+  .gallery {width: 100%}
+  .gallery img {width: 100%}
+  .header {width: 100%; background-image: none;}
+  .header h1 {font-size: xxx-large}
+  .header-button {height: fit-content;}
+}
