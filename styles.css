@@ -8,7 +8,7 @@
 }
 .gallery img {
   transition: .1s;
-  padding: 3px
+  padding: 1px
 }
 .gallery img:hover {
   transform: scale(1.03);
@@ -41,6 +41,7 @@
   vertical-align: middle;
   line-height: normal;
   font-size: xxx-large;
+  position: relative
 }
 .header-button{
   width: min-content;
