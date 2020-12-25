@@ -49,7 +49,7 @@
   height: min-content;
   margin: auto;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
   body {background-color: aliceblue}
   .content {overflow: hidden;}
   .content img {height: auto;
